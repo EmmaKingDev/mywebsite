@@ -1,22 +1,20 @@
 {
-  "name": "emmakingdev",
-  "version": "1.0.0",
-  "description": "Emma King Dev",
-  "main": "index.js",
+  "name": "squalid-spectrum",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ci": "echo 'Hello'",
-    "build": "echo 'Hi'"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmmaKingDev/mywebsite.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EmmaKingDev/mywebsite/issues"
-  },
-  "homepage": "https://github.com/EmmaKingDev/mywebsite#readme"
+  "dependencies": {
+    "astro": "^2.3.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "@astrojs/react": "^2.1.1",
+    "@types/react": "^18.0.10",
+    "@types/react-dom": "^18.0.5"
+  }
 }
