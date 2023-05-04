@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import usePoem from '../hooks/usePoem';
 import './Poem.css';
+import { usePageRefresh } from '../hooks/usePageRefresh';
 
 export default function PoemDisplay() {
 
 	const [poemData, loading] = usePoem();
-	console.debug(poemData)
+	const refreshPage = usePageRefresh();
 
 	if (loading) {
 		return <div className="spinner"/>
@@ -17,6 +18,9 @@ export default function PoemDisplay() {
 				<ul className="poem">
 					{poemData.map(line => <li>{line}</li> )}
 				</ul>
+				<button onClick={refreshPage}>
+				New
+				</button>
 			</>
 		);
 	}
