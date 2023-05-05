@@ -2,4 +2,4 @@
 
 Poems are retrieved from https://poetrydb.org/
 
-![example workflow](https://github.com/EmmaKingDev/mywebsite/actions/workflows/main.yml/badge.svg)
+[![Deploy to Firebase Hosting on Commit](https://github.com/EmmaKingDev/mywebsite/actions/workflows/firebase-hosting-push.yml/badge.svg)](https://github.com/EmmaKingDev/mywebsite/actions/workflows/firebase-hosting-push.yml)
