@@ -3,8 +3,10 @@ import './Poem.css';
 
 export default function InfoButton() {
   return (
-    <button class="infoButton" onClick={() => window.open("https://github.com/EmmaKingDev/mywebsite", "_blank")}>
+    <a href="https://github.com/EmmaKingDev/mywebsite" target="_blank">
+    <button className="infoButton">
       What is this?
     </button>
+    </a>
   );
 }
