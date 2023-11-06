@@ -34,6 +34,7 @@ h1 {
 	font-family: 'IBM Plex Mono', monospace;
 	margin-bottom: 5%;
 	margin-top: -5%;
+	font-size: 1.3rem;
 }
 
 .poem {
@@ -42,7 +43,7 @@ h1 {
   padding: 0;
   margin: 0;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .spinner {
@@ -56,6 +57,17 @@ h1 {
 	height: 24px;
 	animation: spin 1.5s infinite linear;
   }
+
+.infoButton {
+	position: fixed;
+    top: 10px;
+    right: 10px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+}
   
 @keyframes spin {
 	from {
@@ -85,10 +97,10 @@ h1 {
 
   @media only screen and (max-width: 767px) {
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 	}
 	.poem {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 	}
 	button {
 		margin-top: 5%;

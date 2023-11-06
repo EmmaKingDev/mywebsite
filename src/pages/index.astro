@@ -1,5 +1,6 @@
 ---
 import PoemDisplay from "../components/PoemDisplay";
+import InfoButton from "../components/InfoButton";
 // Component Imports
 const someProps = {
   count: 0,
@@ -30,6 +31,7 @@ const someProps = {
     <main>
       <div class="mainContainer">
         <h1>Poem by Shakespeare 🐝</h1>
+        <InfoButton />
         <PoemDisplay client:visible />
       </div>
     </main>
